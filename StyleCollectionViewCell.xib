@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="StyleCell" id="gTV-IL-0wX" customClass="StyleCollectionViewCell" customModule="Matchee" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CNU-A9-TWT">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="25"/>
+                        <color key="backgroundColor" white="0.86680772569999998" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u4e-TR-y3c">
+                        <rect key="frame" x="0.0" y="25" width="100" height="25"/>
+                        <color key="backgroundColor" white="0.72349717881944442" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t0K-Pa-yWC">
+                        <rect key="frame" x="0.0" y="50" width="100" height="25"/>
+                        <color key="backgroundColor" white="0.468505859375" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BAa-A8-8Im">
+                        <rect key="frame" x="0.0" y="75" width="100" height="25"/>
+                        <color key="backgroundColor" white="0.21552191840277779" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mask" translatesAutoresizingMaskIntoConstraints="NO" id="Fsq-7i-MBp">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="u4e-TR-y3c" firstAttribute="height" secondItem="CNU-A9-TWT" secondAttribute="height" id="7bu-zI-ktC"/>
+                <constraint firstAttribute="bottom" secondItem="BAa-A8-8Im" secondAttribute="bottom" id="8IW-AG-AwQ"/>
+                <constraint firstItem="u4e-TR-y3c" firstAttribute="top" secondItem="CNU-A9-TWT" secondAttribute="bottom" id="Cuq-h5-tmP"/>
+                <constraint firstItem="BAa-A8-8Im" firstAttribute="height" secondItem="CNU-A9-TWT" secondAttribute="height" id="DOq-IB-Vda"/>
+                <constraint firstItem="u4e-TR-y3c" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="KWo-8n-yjr"/>
+                <constraint firstItem="t0K-Pa-yWC" firstAttribute="width" secondItem="CNU-A9-TWT" secondAttribute="width" id="Kl3-4F-sI9"/>
+                <constraint firstItem="BAa-A8-8Im" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Ll6-mC-jqc"/>
+                <constraint firstAttribute="trailing" secondItem="Fsq-7i-MBp" secondAttribute="trailing" id="M7U-d8-Jss"/>
+                <constraint firstItem="Fsq-7i-MBp" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="MBN-Jt-ZHL"/>
+                <constraint firstItem="BAa-A8-8Im" firstAttribute="top" secondItem="t0K-Pa-yWC" secondAttribute="bottom" id="Qtl-Za-6ab"/>
+                <constraint firstAttribute="trailing" secondItem="u4e-TR-y3c" secondAttribute="trailing" id="RKN-QN-4by"/>
+                <constraint firstAttribute="bottom" secondItem="Fsq-7i-MBp" secondAttribute="bottom" id="SDv-Cn-wHL"/>
+                <constraint firstItem="CNU-A9-TWT" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="VSg-6O-jtK"/>
+                <constraint firstItem="t0K-Pa-yWC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Vd2-Dr-bAP"/>
+                <constraint firstAttribute="trailing" secondItem="BAa-A8-8Im" secondAttribute="trailing" id="W2h-NZ-2Ua"/>
+                <constraint firstAttribute="trailing" secondItem="t0K-Pa-yWC" secondAttribute="trailing" id="WWN-3Z-x5T"/>
+                <constraint firstItem="Fsq-7i-MBp" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="axm-uO-xfH"/>
+                <constraint firstItem="BAa-A8-8Im" firstAttribute="width" secondItem="CNU-A9-TWT" secondAttribute="width" id="b9S-Kz-od6"/>
+                <constraint firstItem="u4e-TR-y3c" firstAttribute="width" secondItem="CNU-A9-TWT" secondAttribute="width" id="doG-Jl-t7o"/>
+                <constraint firstAttribute="trailing" secondItem="CNU-A9-TWT" secondAttribute="trailing" id="f6H-Sz-rRB"/>
+                <constraint firstItem="CNU-A9-TWT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="qEi-LU-yBK"/>
+                <constraint firstItem="t0K-Pa-yWC" firstAttribute="top" secondItem="u4e-TR-y3c" secondAttribute="bottom" id="t73-vx-4tG"/>
+                <constraint firstItem="t0K-Pa-yWC" firstAttribute="height" secondItem="CNU-A9-TWT" secondAttribute="height" id="xVv-Ia-jZr"/>
+            </constraints>
+            <size key="customSize" width="100" height="100"/>
+            <connections>
+                <outlet property="beltColor" destination="u4e-TR-y3c" id="uVo-i6-YnN"/>
+                <outlet property="bottomColor" destination="t0K-Pa-yWC" id="tKC-Nt-NFP"/>
+                <outlet property="maskImage" destination="Fsq-7i-MBp" id="Ugr-SH-UXg"/>
+                <outlet property="shoesColor" destination="BAa-A8-8Im" id="70c-1x-JZg"/>
+                <outlet property="topColor" destination="CNU-A9-TWT" id="9uZ-eN-ocb"/>
+            </connections>
+            <point key="canvasLocation" x="50" y="77"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="mask" width="50" height="50"/>
+    </resources>
+</document>
