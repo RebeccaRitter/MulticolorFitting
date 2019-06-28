@@ -5,5 +5,7 @@ So, we think, why not bring these colors to users in the most intuitive way - th
 
 We are a passionate team of two engineers and a designer. We've envisioned this application as an open interactive process where we've integrated multiple colors and matching, and in a truly intuitive way to express the glamour of color matching, we'll continue to add more to our app. More color matching and clothing.
 
+Completely open source projects, if you encounter problems in the use of the process, please contact us
+
 Json Keny-Designer
 Rebecca Ritter - Concepts and Developers
